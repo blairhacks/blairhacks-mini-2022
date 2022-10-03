@@ -6,7 +6,7 @@ import { Mail, Instagram, Twitter, GitHub, Tool, Users, Smile } from 'react-feat
 export default function Home() {
   return <>
     <Head>
-      <title>BlairHacks Mini '22 – BlairHacks</title>
+      <title>BlairHacks Mini &#39;22 – BlairHacks</title>
       {/* <meta name="description" content="" /> */}
     </Head>
 
@@ -24,7 +24,7 @@ export default function Home() {
         <div className="p-8 h-full container max-w-5xl flex flex-col justify-center">
           <div className="flex items-end gap-4">
             <h1 className="text-6xl font-extrabold">
-              BlairHacks Mini '22
+              BlairHacks Mini &#39;22
             </h1>
             <a href="https://blairhacks.com" target="_blank" rel="noopener noreferrer">
               <p className="px-2 py-0.5 rounded-lg bg-neutral-500/30 text-xl font-medium">
@@ -72,7 +72,7 @@ export default function Home() {
         </h2>
 
         <p className="text-2xl font-thin mt-4">
-          Introducing BlairHacks' newest event (and first IRL event since 2020)!
+          Introducing BlairHacks&#39; newest event (and first IRL event since 2020)!
           BlairHacks Mini is a day-long event where high school students around Montgomery County will come together to build apps, games, and hardware.
           Look forward to a day of hands-on coding + tech workshops, fun activities, and more!
         </p>
@@ -86,7 +86,7 @@ export default function Home() {
               Build stuff!
             </h3>
             <p className="text-xl font-thin mt-2">
-              Hardware, software, and you name it! You'll learn how to build something new and unique.
+              Hardware, software, and you name it! You&#39;ll learn how to build something new and unique.
             </p>
           </div>
 
@@ -149,7 +149,7 @@ export default function Home() {
               Do you guys actually hack?
             </h3>
             <p className="text-lg font-thin leading-6 mt-1.5">
-              No, that's not what we mean by "hack"! Hacking is a general term for finding creative solutions with code to solve problems we see around us.
+              No, that&#39;s not what we mean by "hack"! Hacking is a general term for finding creative solutions with code to solve problems we see around us.
             </p>
           </div>
 
@@ -173,10 +173,10 @@ export default function Home() {
 
           <div className="p-4 border-2 border-emerald-400 rounded-xl">
             <h3 className="text-xl font-bold">
-              I'm new to coding. Can I still participate?
+              I&#39;m new to coding. Can I still participate?
             </h3>
             <p className="text-lg font-thin leading-6 mt-1.5">
-              Yes! If you are a beginner, you can attend our workshops that we run throughout the event. They'll cover the basics of different tools you can use to build your hack.
+              Yes! If you are a beginner, you can attend our workshops that we run throughout the event. They&#39;ll cover the basics of different tools you can use to build your hack.
             </p>
           </div>
 
@@ -194,7 +194,7 @@ export default function Home() {
               I have another question!
             </h3>
             <p className="text-lg font-thin leading-6 mt-1.5">
-              Send us an email at <a className="text-emerald-500 font-medium underline cursor-pointer" href="mailto:team@blairhacks.com">team@blairhacks.com</a> and we'll get back to you ASAP!
+              Send us an email at <a className="text-emerald-500 font-medium underline cursor-pointer" href="mailto:team@blairhacks.com">team@blairhacks.com</a> and we&#39;ll get back to you ASAP!
             </p>
           </div>
         </div>
@@ -241,7 +241,7 @@ export default function Home() {
         <div className="pt-4">
           <div className="flex items-end gap-3">
             <h2 className="text-3xl font-extrabold">
-              BlairHacks Mini '22
+              BlairHacks Mini &#39;22
             </h2>
             <a href="https://blairhacks.com" target="_blank" rel="noopener noreferrer">
               <p className="px-2 py-0.5 rounded-lg bg-neutral-500/10 font-medium">
