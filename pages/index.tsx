@@ -10,15 +10,15 @@ export default function Home() {
       {/* <meta name="description" content="" /> */}
     </Head>
 
-    <header className="h-screen">
-      <Image
+    {/* <header className="h-screen relative"> */}
+    <header className="h-screen relative bg-[url('/assets/blairhacks_4.jpg')] bg-cover bg-center">
+      {/* <Image
         src="/assets/blairhacks_4.jpg"
-        alt=""
+        alt="Image of BlairHacks_4 participants"
         layout="fill"
         objectFit="cover"
         objectPosition="center"
-        // className="opacity-20 -z-10"
-      />
+      /> */}
 
       <div className="w-full h-full relative bg-black/75">
         <div className="p-8 h-full container max-w-5xl flex flex-col justify-center">
@@ -94,21 +94,31 @@ export default function Home() {
           </div>
 
           <div className="self-center flex items-center justify-center rounded-xl overflow-hidden">
-            <Image
+            {/* <Image
               src="/assets/assemble.jpg"
               alt="Hackers at Hack Club Assemble 2022"
               width={4000}
               height={2250}
               className="w-full"
+            /> */}
+            <img
+              src="/assets/assemble.jpg"
+              alt="Hackers at Hack Club Assemble 2022"
+              className="w-full"
             />
           </div>
 
           <div className="self-center flex items-center justify-center rounded-xl overflow-hidden">
-            <Image
+            {/* <Image
               src="/assets/hackers.jpeg"
               alt="Hackers at BlairHacks MLH Local Hack Day 2017"
               width={680}
               height={453}
+              className="w-full"
+            /> */}
+            <img
+              src="/assets/hackers.jpeg"
+              alt="Hackers at BlairHacks MLH Local Hack Day 2017"
               className="w-full"
             />
           </div>
@@ -138,11 +148,16 @@ export default function Home() {
           </div>
 
           <div className="self-center flex items-center justify-center rounded-xl overflow-hidden">
-            <Image
+            {/* <Image
               src="/assets/obama.jpeg"
               alt="Obama at BlairHacks_3"
               width={680}
               height={453}
+              className="w-full"
+            /> */}
+            <img
+              src="/assets/obama.jpeg"
+              alt="Obama at BlairHacks_3"
               className="w-full"
             />
           </div>
@@ -230,11 +245,15 @@ export default function Home() {
           </div> */}
 
           <div className="h-48 p-4 flex justify-center items-center rounded-xl bg-neutral-400/20">
-            <Image
+            {/* <Image
               src="/assets/cupf.png"
               alt="MoCo Community Use of Pubic Facilities Logo"
               width="535"
               height="94"
+            /> */}
+            <img
+              src="/assets/cupf.png"
+              alt="MoCo Community Use of Pubic Facilities Logo"
             />
           </div>
         </div>
