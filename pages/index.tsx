@@ -22,33 +22,35 @@ export default function Home() {
 
       <div className="w-full h-full relative bg-black/75">
         <div className="p-8 h-full container max-w-5xl flex flex-col justify-center">
-          <div className="flex items-end gap-4">
-            <h1 className="text-6xl font-extrabold">
+          <div className="flex items-end gap-3 md:gap-4">
+            <h1 className="text-5xl md:text-6xl font-extrabold">
               BlairHacks Mini &#39;22
             </h1>
             <a href="https://blairhacks.com" target="_blank" rel="noopener noreferrer">
-              <p className="px-2 py-0.5 rounded-lg bg-neutral-500/30 text-xl font-medium">
+              <p className="px-2 py-0.5 rounded-lg bg-neutral-500/30 text-md md:text-xl font-medium whitespace-nowrap">
                 by BlairHacks
               </p>
             </a>
           </div>
-          <p className="text-2xl font-semibold mt-0.5">
+          <p className="text-xl md:text-2xl font-semibold mt-0.5">
             An IRL day of coding and making for high-schoolers in MoCo
           </p>
 
-          <ul className="flex gap-4 mt-6">
-            <li className="w-20 aspect-square px-3 py-1 border-2 border-white rounded-xl flex flex-col justify-center items-center">
-              <span className="text-lg font-semibold -mb-2">DEC</span>
-              <span className="text-4xl font-extrabold">10</span>
-            </li>
-
-            <a href="https://g.page/mcplRockvilleMemorial" target="_blank" rel="noopener noreferrer">
-              <li className="px-3 py-1.5 border-2 border-white rounded-xl flex flex-col justify-center">
-                <span className="text-md">📌</span>
-                <span className="text-lg font-extrabold">Rockville Memorial Library</span>
-                <span className="text-xs -mt-1">@ Rockville Town Square</span>
+          <ul className="flex flex-col sm:flex-row items-start gap-4 mt-6">
+            <div className="flex gap-4">
+              <li className="w-20 aspect-square px-3 py-1 border-2 border-white rounded-xl flex flex-col justify-center items-center">
+                <span className="text-lg font-semibold -mb-2">DEC</span>
+                <span className="text-4xl font-extrabold">10</span>
               </li>
-            </a>
+
+              <a href="https://g.page/mcplRockvilleMemorial" target="_blank" rel="noopener noreferrer">
+                <li className="px-3 py-1.5 border-2 border-white rounded-xl flex flex-col justify-center">
+                  <span className="text-md">📌</span>
+                  <span className="text-lg font-extrabold leading-5">Rockville Memorial Library</span>
+                  <span className="text-xs">@ Rockville Town Square</span>
+                </li>
+              </a>
+            </div>
 
             <li className="px-3 py-1.5 border-2 border-white rounded-xl flex flex-col justify-center">
               <span className="text-md">🕑</span>
@@ -56,11 +58,12 @@ export default function Home() {
             </li>
           </ul>
 
-          <ul className="flex gap-4 mt-6">
-            <li className="px-4 py-2 bg-emerald-500 rounded-xl flex flex-col justify-center">
-              <span className="text-2xl font-extrabold">Register (free!)</span>
-            </li>
-          </ul>
+          {/* <div className="self-start px-4 py-2 bg-emerald-500 rounded-xl text-2xl font-extrabold mt-6">
+            Register (free!)
+          </div> */}
+          <div className="text-xl font-thin mt-6">
+            Registrations start <span className="text-emerald-400 font-semibold">November</span>
+          </div>
         </div>
       </div>
     </header>
@@ -90,9 +93,17 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="h-64 bg-neutral-900 rounded-xl"></div>
+          <div className="self-center flex items-center justify-center rounded-xl overflow-hidden">
+            <Image
+              src="/assets/assemble.jpg"
+              alt="Hackers at Hack Club Assemble 2022"
+              width={4000}
+              height={2250}
+              className="w-full"
+            />
+          </div>
 
-          <div className="h-64 flex items-center justify-center rounded-xl overflow-hidden">
+          <div className="self-center flex items-center justify-center rounded-xl overflow-hidden">
             <Image
               src="/assets/hackers.jpeg"
               alt="Hackers at BlairHacks MLH Local Hack Day 2017"
@@ -126,7 +137,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="h-64 flex items-center justify-center rounded-xl overflow-hidden">
+          <div className="self-center flex items-center justify-center rounded-xl overflow-hidden">
             <Image
               src="/assets/obama.jpeg"
               alt="Obama at BlairHacks_3"
@@ -143,7 +154,7 @@ export default function Home() {
           Frequently Asked Questions
         </h2>
 
-        <div className="grid grid-cols-2 gap-4 mt-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-4">
           <div className="p-4 border-2 border-emerald-400 rounded-xl">
             <h3 className="text-xl font-bold">
               Do you guys actually hack?
@@ -209,7 +220,7 @@ export default function Home() {
           Our partners and supporters that are making this event free and possible!
         </p>
 
-        <div className="grid grid-cols-3 gap-4 mt-4">
+        <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 mt-4">
           {/* <div className="h-48 p-4 flex justify-center items-center rounded-xl bg-neutral-400/20">
             <Image
               src="/assets/bank_grant.png"
@@ -238,10 +249,10 @@ export default function Home() {
     </main>
 
     <footer className="bg-emerald-400 text-black">
-      <div className="px-8 py-6 container max-w-7xl flex gap-8 justify-between">
+      <div className="px-8 py-6 container max-w-7xl flex flex-col md:flex-row gap-8 justify-between">
         <div className="pt-4">
           <div className="flex items-end gap-3">
-            <h2 className="text-3xl font-extrabold">
+            <h2 className="text-2xl lg:text-3xl font-extrabold">
               BlairHacks Mini &#39;22
             </h2>
             <a href="https://blairhacks.com" target="_blank" rel="noopener noreferrer">
