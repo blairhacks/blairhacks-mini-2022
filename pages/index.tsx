@@ -81,7 +81,7 @@ export default function Home() {
         </p>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-12 mt-16">
-          <div>
+          <div className="order-1">
             <p className="text-emerald-400">
               <Tool size={60}/>
             </p>
@@ -93,7 +93,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="self-center flex items-center justify-center rounded-xl overflow-hidden">
+          <div className="order-2 self-center flex items-center justify-center rounded-xl overflow-hidden">
             {/* <Image
               src="/assets/assemble.jpg"
               alt="Hackers at Hack Club Assemble 2022"
@@ -108,7 +108,7 @@ export default function Home() {
             />
           </div>
 
-          <div className="order-4 sm:order-none self-center flex items-center justify-center rounded-xl overflow-hidden">
+          <div className="order-4 sm:order-3 self-center flex items-center justify-center rounded-xl overflow-hidden">
             {/* <Image
               src="/assets/hackers.jpeg"
               alt="Hackers at BlairHacks MLH Local Hack Day 2017"
@@ -123,7 +123,7 @@ export default function Home() {
             />
           </div>
 
-          <div className="order-3 sm:order-none">
+          <div className="order-3 sm:order-4">
             <p className="text-emerald-400">
               <Users size={60}/>
             </p>
@@ -135,7 +135,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div>
+          <div className="order-5">
             <p className="text-emerald-400">
               <Smile size={60}/>
             </p>
@@ -147,7 +147,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="self-center flex items-center justify-center rounded-xl overflow-hidden">
+          <div className="order-6 self-center flex items-center justify-center rounded-xl overflow-hidden">
             {/* <Image
               src="/assets/obama.jpeg"
               alt="Obama at BlairHacks_3"
