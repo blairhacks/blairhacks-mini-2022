@@ -7,7 +7,7 @@ export default function Home() {
   return <>
     <Head>
       <title>BlairHacks Mini &#39;22 – BlairHacks</title>
-      {/* <meta name="description" content="" /> */}
+      <meta name="description" content="An IRL day of coding and making for high-schoolers in MoCo. Join us on December 10, 2022 10AM-6PM @ Rockville Memorial Library" />
     </Head>
 
     {/* <header className="h-screen relative"> */}
