@@ -22,7 +22,7 @@ export default function Home() {
 
       <div className="w-full h-full relative bg-black/75">
         <div className="p-8 h-full container max-w-5xl flex flex-col justify-center">
-          <div className="flex items-end gap-3 md:gap-4">
+          <div className="flex flex-col sm:flex-row items-start sm:items-end gap-1 sm:gap-4">
             <h1 className="text-5xl md:text-6xl font-extrabold">
               BlairHacks Mini &#39;22
             </h1>
@@ -32,7 +32,7 @@ export default function Home() {
               </p>
             </a>
           </div>
-          <p className="text-xl md:text-2xl font-semibold mt-0.5">
+          <p className="text-xl md:text-2xl font-semibold mt-4 sm:mt-0.5">
             An IRL day of coding and making for high-schoolers in MoCo
           </p>
 
