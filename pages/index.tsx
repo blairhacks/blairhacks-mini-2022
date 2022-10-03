@@ -80,7 +80,7 @@ export default function Home() {
           Look forward to a day of hands-on coding + tech workshops, fun activities, and more!
         </p>
 
-        <div className="grid grid-cols-2 gap-12 mt-16">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-12 mt-16">
           <div>
             <p className="text-emerald-400">
               <Tool size={60}/>
@@ -108,7 +108,7 @@ export default function Home() {
             />
           </div>
 
-          <div className="self-center flex items-center justify-center rounded-xl overflow-hidden">
+          <div className="order-4 sm:order-none self-center flex items-center justify-center rounded-xl overflow-hidden">
             {/* <Image
               src="/assets/hackers.jpeg"
               alt="Hackers at BlairHacks MLH Local Hack Day 2017"
@@ -123,7 +123,7 @@ export default function Home() {
             />
           </div>
 
-          <div>
+          <div className="order-3 sm:order-none">
             <p className="text-emerald-400">
               <Users size={60}/>
             </p>
