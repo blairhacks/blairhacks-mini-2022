@@ -149,7 +149,7 @@ export default function Home() {
               Do you guys actually hack?
             </h3>
             <p className="text-lg font-thin leading-6 mt-1.5">
-              No, that&#39;s not what we mean by "hack"! Hacking is a general term for finding creative solutions with code to solve problems we see around us.
+              No, that&#39;s not what we mean by &quot;hack&quot;! Hacking is a general term for finding creative solutions with code to solve problems we see around us.
             </p>
           </div>
 
@@ -221,6 +221,7 @@ export default function Home() {
           <div className="h-48 p-4 flex justify-center items-center rounded-xl bg-neutral-400/20">
             <Image
               src="/assets/cupf.png"
+              alt="MoCo Community Use of Pubic Facilities Logo"
               width="535"
               height="94"
             />
