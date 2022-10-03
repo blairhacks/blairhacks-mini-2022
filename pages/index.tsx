@@ -181,7 +181,7 @@ export default function Home() {
 
           <div className="p-4 border-2 border-emerald-400 rounded-xl">
             <h3 className="text-xl font-bold">
-              Who is elligible to participate?
+              Who is eligible to participate?
             </h3>
             <p className="text-lg font-thin leading-6 mt-1.5">
               All high school students are welcome to attend. Bring your friends!
