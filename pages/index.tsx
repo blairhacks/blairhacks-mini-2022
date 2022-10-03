@@ -22,14 +22,19 @@ export default function Home() {
 
       <div className="w-full h-full relative bg-black/75">
         <div className="p-8 h-full container max-w-5xl flex flex-col justify-center">
-          <div className="flex flex-col sm:flex-row items-start sm:items-end gap-1 sm:gap-4">
+          <div className="flex flex-col sm:flex-row items-start sm:items-end gap-1 sm:gap-6">
             <h1 className="text-5xl md:text-6xl font-extrabold">
               BlairHacks Mini &#39;22
             </h1>
-            <a href="https://blairhacks.com" target="_blank" rel="noopener noreferrer">
-              <p className="px-2 py-0.5 rounded-lg bg-neutral-500/30 text-md md:text-xl font-medium whitespace-nowrap">
-                by BlairHacks
-              </p>
+            <a href="https://poolesvillehacks.tech" target="_blank" rel="noopener noreferrer">
+              <div className="px-2 pt-1.5 pb-0.5 rounded-lg bg-neutral-500/30">
+                <p className="text-sm whitespace-nowrap -mb-1.5">
+                  in collaboration with
+                </p>
+                <p className="text-md md:text-xl font-medium">
+                  poolesville_hacks
+                </p>
+              </div>
             </a>
           </div>
           <p className="text-xl md:text-2xl font-semibold mt-4 sm:mt-0.5">
@@ -236,13 +241,18 @@ export default function Home() {
         </p>
 
         <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 mt-4">
-          {/* <div className="h-48 p-4 flex justify-center items-center rounded-xl bg-neutral-400/20">
-            <Image
+          <div className="h-48 p-4 flex justify-center items-center rounded-xl bg-neutral-400/20">
+            {/* <Image
               src="/assets/bank_grant.png"
+              alt="Hack Club x FIRST grant"
               width="667"
               height="328"
+            /> */}
+            <img
+              src="/assets/bank_grant.png"
+              alt="Hack Club x FIRST grant"
             />
-          </div> */}
+          </div>
 
           <div className="h-48 p-4 flex justify-center items-center rounded-xl bg-neutral-400/20">
             {/* <Image
@@ -274,10 +284,15 @@ export default function Home() {
             <h2 className="text-2xl lg:text-3xl font-extrabold">
               BlairHacks Mini &#39;22
             </h2>
-            <a href="https://blairhacks.com" target="_blank" rel="noopener noreferrer">
-              <p className="px-2 py-0.5 rounded-lg bg-neutral-500/10 font-medium">
-                by BlairHacks
-              </p>
+            <a href="https://poolesvillehacks.tech" target="_blank" rel="noopener noreferrer">
+              <div className="px-2 pt-1.5 pb-0.5 rounded-lg bg-neutral-500/10">
+                <p className="text-xs whitespace-nowrap -mb-1.5">
+                  in collaboration with
+                </p>
+                <p className="text-md md:text-lg font-medium">
+                  poolesville_hacks
+                </p>
+              </div>
             </a>
           </div>
           <p className="text-sm mt-2">
@@ -313,20 +328,20 @@ export default function Home() {
           <h3 className="text-xl font-extrabold mt-3">
             Learn more
           </h3>
-          <ul className="flex gap-5">
-            <li>
-              <a href="https://blairhacks.com" target="_blank" rel="noopener noreferrer" className="hover:underline">
-                BlairHacks
-              </a>
-            </li>
+          <ul className="flex gap-4">
             <li>
               <a href="https://bank.hackclub.com/blairhacks" target="_blank" rel="noopener noreferrer" className="hover:underline">
                 Our finances
               </a>
             </li>
             <li>
-              <a href="https://blairhacks.com/donate" target="_blank" rel="noopener noreferrer" className="hover:underline">
-                Donate
+              <a href="https://blairhacks.com" target="_blank" rel="noopener noreferrer" className="hover:underline">
+                BlairHacks
+              </a>
+            </li>
+            <li>
+              <a href="https://poolesvillehacks.tech" target="_blank" rel="noopener noreferrer" className="hover:underline">
+                poolesville_hacks
               </a>
             </li>
           </ul>
