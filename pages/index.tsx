@@ -45,7 +45,7 @@ export default function Home() {
             <div className="flex gap-4">
               <li className="w-20 aspect-square px-3 py-1 border-2 border-emerald-400 rounded-xl flex flex-col justify-center items-center">
                 <span className="text-lg font-semibold -mb-2">DEC</span>
-                <span className="text-4xl font-extrabold ">10</span>
+                <span className="text-4xl font-extrabold">10</span>
               </li>
 
               <a href="https://g.page/mcplRockvilleMemorial" target="_blank" rel="noopener noreferrer">
