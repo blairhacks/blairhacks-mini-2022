@@ -38,7 +38,7 @@ export default function Home() {
             </a>
           </div>
           <p className="text-xl md:text-2xl font-semibold mt-4 sm:mt-0.5">
-            A day of making for <span className=''>high-schoolers in MoCo</span> 
+            A day of making for high-schoolers in MoCo
           </p>
 
           <ul className="flex flex-col sm:flex-row items-start gap-4 mt-6">
