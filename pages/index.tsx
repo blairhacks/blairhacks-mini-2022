@@ -24,32 +24,32 @@ export default function Home() {
         <div className="p-8 h-full container max-w-5xl flex flex-col justify-center">
           <div className="flex flex-col sm:flex-row items-start sm:items-end gap-1 sm:gap-6">
             <h1 className="text-5xl md:text-6xl font-extrabold">
-              BlairHacks Mini &#39;22
+              BlairHacks Mini &apos;22
             </h1>
             <a href="https://poolesvillehacks.tech" target="_blank" rel="noopener noreferrer">
-              <div className="px-2 pt-1.5 pb-0.5 rounded-lg bg-neutral-500/30">
+              <div className="px-2 pt-1.5 pb-0.5 rounded-lg bg-neutral-700/50">
                 <p className="text-sm whitespace-nowrap -mb-1.5">
                   in collaboration with
                 </p>
-                <p className="text-md md:text-xl font-medium">
+                <p className="text-md md:text-xl font-medium text-amber-300">
                   poolesville_hacks
                 </p>
               </div>
             </a>
           </div>
           <p className="text-xl md:text-2xl font-semibold mt-4 sm:mt-0.5">
-            An IRL day of coding and making for high-schoolers in MoCo
+            A day of making for <span className=''>high-schoolers in MoCo</span> 
           </p>
 
           <ul className="flex flex-col sm:flex-row items-start gap-4 mt-6">
             <div className="flex gap-4">
-              <li className="w-20 aspect-square px-3 py-1 border-2 border-white rounded-xl flex flex-col justify-center items-center">
+              <li className="w-20 aspect-square px-3 py-1 border-2 border-emerald-400 rounded-xl flex flex-col justify-center items-center">
                 <span className="text-lg font-semibold -mb-2">DEC</span>
-                <span className="text-4xl font-extrabold">10</span>
+                <span className="text-4xl font-extrabold ">10</span>
               </li>
 
               <a href="https://g.page/mcplRockvilleMemorial" target="_blank" rel="noopener noreferrer">
-                <li className="px-3 py-1.5 border-2 border-white rounded-xl flex flex-col justify-center">
+                <li className="px-3 py-1.5 border-2 border-emerald-400 rounded-xl flex flex-col justify-center">
                   <span className="text-md">📌</span>
                   <span className="text-lg font-extrabold leading-5">Rockville Memorial Library</span>
                   <span className="text-xs">@ Rockville Town Square</span>
@@ -57,7 +57,7 @@ export default function Home() {
               </a>
             </div>
 
-            <li className="px-3 py-1.5 border-2 border-white rounded-xl flex flex-col justify-center">
+            <li className="px-3 py-1.5 border-2 border-emerald-400 rounded-xl flex flex-col justify-center">
               <span className="text-md">🕑</span>
               <span className="text-2xl font-extrabold">10AM-6PM</span>
             </li>
@@ -67,7 +67,7 @@ export default function Home() {
             Register (free!)
           </div> */}
           <div className="text-xl font-thin mt-6">
-            Registrations start <span className="text-emerald-400 font-semibold">November</span>
+            Registrations start in <span className="">November</span>, stay tuned!
           </div>
         </div>
       </div>
