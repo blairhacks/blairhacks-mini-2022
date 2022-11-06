@@ -85,12 +85,18 @@ export default function Home() {
 							</li>
 						</ul>
 
-						{/* <div className="self-start px-4 py-2 bg-emerald-500 rounded-xl text-2xl font-extrabold mt-6">
-            Register (free!)
-          </div> */}
-						<div className="text-xl font-thin mt-6">
+						<a
+							href="https://organize.mlh.io/participants/events/8717-blairhacks-mini"
+							target="_blank" rel="noreferrer noopener"
+							className="self-start"
+						>
+							<div className="px-4 py-2 bg-emerald-500 rounded-xl text-2xl font-extrabold mt-6">
+								Register (free!)
+							</div>
+						</a>
+						{/* <div className="text-xl font-thin mt-6">
 							Registrations start in November, stay tuned!
-						</div>
+						</div> */}
 					</div>
 				</div>
 			</header>
