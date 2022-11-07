@@ -90,7 +90,7 @@ export default function Home() {
 							target="_blank" rel="noreferrer noopener"
 							className="self-start"
 						>
-							<div className="px-4 py-2 bg-emerald-500 rounded-xl text-2xl font-extrabold mt-6">
+							<div className="px-4 py-2 bg-emerald-500 rounded-xl text-black text-2xl font-extrabold mt-6">
 								Register (free!)
 							</div>
 						</a>
