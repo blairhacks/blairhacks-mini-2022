@@ -87,7 +87,8 @@ export default function Home() {
 
 						<a
 							href="https://organize.mlh.io/participants/events/8717-blairhacks-mini"
-							target="_blank" rel="noreferrer noopener"
+							target="_blank"
+							rel="noreferrer noopener"
 							className="self-start"
 						>
 							<div className="px-4 py-2 bg-emerald-500 rounded-xl text-2xl font-extrabold mt-6">
@@ -282,6 +283,15 @@ export default function Home() {
 									src="/assets/bank_grant.png"
 									alt="Hack Club x FIRST grant"
 								/>
+							</div>
+						</a>
+
+						<a
+							href="https://mlh.gitbook.io/major-league-hacking-pizza-fund/GXukjsbPHOyBplCPibsj/"
+							target="blank"
+						>
+							<div className="h-48 p-4 flex justify-center items-center rounded-xl bg-neutral-400/20 transition-all duration-300 border-2 border-emerald-400 border-opacity-0 hover:border-opacity-100">
+								<img src="/assets/mlh.png" alt="MLH Pizza Fund" />
 							</div>
 						</a>
 
