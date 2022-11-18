@@ -81,7 +81,7 @@ export default function Home() {
 
 							<li className="px-3 py-1.5 border-2 border-emerald-400 rounded-xl flex flex-col justify-center">
 								<span className="text-md">🕑</span>
-								<span className="text-2xl font-extrabold">10AM-6PM</span>
+								<span className="text-2xl font-extrabold">10:30AM-5:30PM</span>
 							</li>
 						</ul>
 
