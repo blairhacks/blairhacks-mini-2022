@@ -9,6 +9,7 @@ import {
 	Tool,
 	Users,
 	Smile,
+	ExternalLink
 } from "react-feather";
 
 export default function Home() {
@@ -103,6 +104,21 @@ export default function Home() {
 			</header>
 
 			<main className="px-8 py-28 container max-w-5xl flex flex-col gap-20">
+				<section className="">
+					<a
+						href="https://docs.google.com/document/d/e/2PACX-1vQuWcIJ7S_xVALwc4N6kWg4dKHTyVblpwvW91lE30K6uEJYH0SY9jrnX1KkmK_67xsgbaqdHKCjD8Ae/pub"
+						target="_blank" rel="noreferrer noopener"
+						className="flex gap-1.5 items-center justify-center font-bold hover:underline underline-offset-1"
+					>
+						<span>Schedule</span>
+						<ExternalLink size={14}/>
+					</a>
+					<iframe
+						src="https://docs.google.com/document/d/e/2PACX-1vQuWcIJ7S_xVALwc4N6kWg4dKHTyVblpwvW91lE30K6uEJYH0SY9jrnX1KkmK_67xsgbaqdHKCjD8Ae/pub?embedded=true"
+						className="w-full h-96 border-[4px] border-neutral-900 rounded-lg mt-2"
+					/>
+				</section>
+
 				<section>
 					<h2 className="text-4xl font-bold">
 						8 hours of coding, workshops, and fun!
