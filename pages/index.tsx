@@ -9,8 +9,19 @@ import {
 	Tool,
 	Users,
 	Smile,
-	ExternalLink
+	ExternalLink,
+	Calendar,
 } from "react-feather";
+import Schedule from "../lib/schedule";
+import ReactMarkdown from "react-markdown";
+
+function Link({ children, ...rest }: { children: React.ReactNode }) {
+	return (
+		<a {...rest} className="text-emerald-400 hover:underline" target="_blank">
+			{children}
+		</a>
+	);
+}
 
 export default function Home() {
 	return (
@@ -104,20 +115,21 @@ export default function Home() {
 			</header>
 
 			<main className="px-8 py-28 container max-w-5xl flex flex-col gap-20">
-				<section className="">
+				{/* <section className="">
 					<a
 						href="https://docs.google.com/document/d/e/2PACX-1vQuWcIJ7S_xVALwc4N6kWg4dKHTyVblpwvW91lE30K6uEJYH0SY9jrnX1KkmK_67xsgbaqdHKCjD8Ae/pub"
-						target="_blank" rel="noreferrer noopener"
+						target="_blank"
+						rel="noreferrer noopener"
 						className="flex gap-1.5 items-center justify-center font-bold hover:underline underline-offset-1"
 					>
 						<span>Schedule</span>
-						<ExternalLink size={14}/>
+						<ExternalLink size={14} />
 					</a>
 					<iframe
 						src="https://docs.google.com/document/d/e/2PACX-1vQuWcIJ7S_xVALwc4N6kWg4dKHTyVblpwvW91lE30K6uEJYH0SY9jrnX1KkmK_67xsgbaqdHKCjD8Ae/pub?embedded=true"
 						className="w-full h-96 border-[4px] border-neutral-900 rounded-lg mt-2"
 					/>
-				</section>
+				</section> */}
 
 				<section>
 					<h2 className="text-4xl font-bold">
@@ -210,6 +222,40 @@ export default function Home() {
 							/>
 						</div>
 					</div>
+				</section>
+
+				<section className="">
+					<a
+						href="https://docs.google.com/document/d/e/2PACX-1vQuWcIJ7S_xVALwc4N6kWg4dKHTyVblpwvW91lE30K6uEJYH0SY9jrnX1KkmK_67xsgbaqdHKCjD8Ae/pub"
+						target="blank"
+					>
+						<h2 className="text-4xl font-bold flex gap-2 items-center hover:underline">
+							Schedule <ExternalLink />
+						</h2>
+					</a>
+					{Schedule.map(({ name, startTime, description }, i) => (
+						<div className="mt-5 flex gap-3 items-stretch" key={i}>
+							<p>{startTime}</p>
+							<div className="flex flex-col gap-2 items-center">
+								<div className="bg-emerald-400 w-6 h-6 p-1 rounded-full">
+									<Calendar className="text-black h-4 w-4" />
+								</div>
+								<div className="flex-1 bg-emerald-400 w-2 rounded-lg"></div>
+							</div>
+							<div className="flex-1 border-2 border-emerald-400 p-5 rounded-lg">
+								<h3 className="font-bold text-lg">{name}</h3>
+								<ReactMarkdown
+									children={description}
+									components={{
+										a: Link,
+										li: ({ children }) => (
+											<li className="list-disc ml-5">{children}</li>
+										),
+									}}
+								/>
+							</div>
+						</div>
+					))}
 				</section>
 
 				<section>
