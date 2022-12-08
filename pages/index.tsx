@@ -245,14 +245,15 @@ export default function Home() {
 							<div className="flex-1 border-2 border-emerald-400 p-5 rounded-lg">
 								<h3 className="font-bold text-lg">{name}</h3>
 								<ReactMarkdown
-									children={description}
 									components={{
 										a: Link,
 										li: ({ children }) => (
 											<li className="list-disc ml-5">{children}</li>
 										),
 									}}
-								/>
+								>
+									{description}
+								</ReactMarkdown>
 							</div>
 						</div>
 					))}
