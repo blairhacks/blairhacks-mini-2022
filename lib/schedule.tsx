@@ -20,7 +20,7 @@ const Schedule: ScheduleItem[] = [
 		startTime: "11:30 AM",
 		description: `# Two concurrent workshops will be happening.
       \n- Intro to web development (HTML/CSS + more)
-      \n - Exploring advanced web
+      \n - Exploring advanced web development (Learn a new framework!)
     `,
 	},
 	{
@@ -42,7 +42,7 @@ const Schedule: ScheduleItem[] = [
 		startTime: "1:30 PM",
 		description: `Various fun games and activities will be organized!
       \n- Jackbox
-      \n- Cards Against Humanity
+      \n- Apples to Apples
       \n- Chess + board/card games
       \n- Cup stacking competition
       \n- Typing competition
@@ -52,15 +52,15 @@ const Schedule: ScheduleItem[] = [
 		name: "Workshops (Session B)",
 		startTime: "2:30 PM",
 		description: `Two concurrent workshops will be happening.
-    \n- Game development with Unity
+    \n- Intro to Game Development
     \n- Hardware with Raspberry Pi's
     `,
 	},
-  {
-    name: "Closing Ceremony",
-    startTime: "4:30 PM",
-    description: `Join us for the closing ceremony where we will talk about what we learned throughout the day!`,
-  }
+	{
+		name: "Closing Ceremony",
+		startTime: "4:30 PM",
+		description: `Join us for the closing ceremony where we will talk about what we learned throughout the day!`,
+	},
 ];
 
 export default Schedule;
