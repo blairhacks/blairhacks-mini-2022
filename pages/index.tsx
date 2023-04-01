@@ -68,7 +68,6 @@ export default function Home() {
 						<p className="text-xl md:text-2xl font-semibold mt-4 sm:mt-0.5">
 							An in-person day of coding and making for high-schoolers in MoCo
 						</p>
-
 						<ul className="flex flex-col sm:flex-row items-start gap-4 mt-6">
 							<div className="flex gap-4">
 								<li className="w-20 aspect-square px-3 py-1 border-2 border-emerald-400 rounded-xl flex flex-col justify-center items-center">
@@ -96,17 +95,17 @@ export default function Home() {
 								<span className="text-2xl font-extrabold">10:30AM-5:30PM</span>
 							</li>
 						</ul>
-
 						<a
-							href="https://organize.mlh.io/participants/events/8717-blairhacks-mini"
+							//href="https://organize.mlh.io/participants/events/8717-blairhacks-mini"
 							target="_blank"
 							rel="noreferrer noopener"
 							className="self-start"
 						>
-							<div className="px-4 py-2 bg-emerald-500 rounded-xl text-black text-2xl font-extrabold mt-6">
-								Register (free!)
+							<div className="px-4 py-2 bg-emerald-500 bg-opacity-75 rounded-xl text-black text-2xl font-extrabold mt-6">
+								Registration is closed
 							</div>
 						</a>
+						<p className="text-sm pt-2 pl-1 text-neutral-300">This event has ended</p>
 						{/* <div className="text-xl font-thin mt-6">
 							Registrations start in November, stay tuned!
 						</div> */}
